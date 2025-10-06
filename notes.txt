@@ -1,1 +1,3 @@
-Ligne écrite depuis la branche pour la seconde fois
+Ligne écrite depuis la branche main pour la seconde fois
+Ligne écrite depuis la branche conflict-test
+
