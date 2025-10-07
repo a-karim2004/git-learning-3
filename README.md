@@ -54,9 +54,6 @@ cd git-learning-2
 git checkout -b myself
 
 # Créer un fichier about.txt
-echo "Nom : Karim" > about.txt
-echo "Prénom : Abdoulkarim" >> about.txt
-echo "Lieu de naissance : Niamey" >> about.txt
 
 # Commit et push
 git add about.txt
@@ -120,3 +117,24 @@ git merge conflict-test
 git add notes.txt
 git commit -m "Résolution du conflit entre main et conflict-test"
 git push origin main
+
+**EN RESUMÉ**
+
+# 1️ Le Branching (Création de branches)
+
+Définition :
+Le branching consiste à créer une branche parallèle dans ton projet.
+C’est comme une copie indépendante de ton code actuel sur laquelle tu peux travailler sans impacter la version principale (main).
+
+
+# 2 Le Merging (Fusion des branches)
+
+ Définition :
+Le merging permet de fusionner le travail effectué sur une branche (ex: my-feature) dans une autre ex(main)
+
+
+# 3 La Gestion des Conflits (Conflict Resolution)
+
+Définition :
+Un conflit arrive quand deux branches modifient la même partie d’un fichier différemment.
+Git ne sait pas laquelle des deux versions garder.
